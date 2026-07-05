@@ -646,18 +646,19 @@
         // ==========================================
         // 【重要】あなたのFirebase設定に書き換えてください
         // ==========================================
-        const firebaseConfig = {
-            apiKey: "YOUR_API_KEY",
-            authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-            projectId: "YOUR_PROJECT_ID",
-            storageBucket: "YOUR_PROJECT_ID.appspot.com",
-            messagingSenderId: "YOUR_SENDER_ID",
-            appId: "YOUR_APP_ID"
-        };
+  const firebaseConfig = {
+  apiKey: "AIzaSyDmXN5ncT6KbQVZU8u-hrDUw1lEOuyOPXI",
+  authDomain: "study-timer-1181a.firebaseapp.com",
+  projectId: "study-timer-1181a",
+  storageBucket: "study-timer-1181a.firebasestorage.app",
+  messagingSenderId: "978370918153",
+  appId: "1:978370918153:web:553d541eef0554ceb3c5d8",
+  measurementId: "G-4ER8QWFXR1"
+};
 
         // Firebase初期化
         const app = initializeApp(firebaseConfig);
-        const auth = getAuth(app);
+        const auth = study-timer-1181a.firebaseapp.com;
         const db = getFirestore(app);
         const provider = new GoogleAuthProvider();
 
